@@ -1,0 +1,65 @@
+html,
+body{
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+}
+.container{
+    padding: 5vw 2.5vw;
+}
+.card-container{
+    /* position: relative; */
+    width: 92.5vw;
+    height: calc(90vw * 139 / 88);
+    /* background-color: #fff; */
+    border-radius: 10px;
+    margin: 0 auto 5vw;
+    padding: 20px;
+    position: relative;
+}
+
+.pointer-events{
+    pointer-events: none;
+}
+
+.card-container.at-sight {
+    z-index: 1;
+}
+
+.card-container.stack {
+    z-index: 0;
+}
+
+.card{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 92.5vw;
+    height: calc(90vw * 139 / 88);
+    border: 0;
+}
+
+.stacked{
+    box-shadow: 5px 5px 0 rgba(51,51,51, .5)
+}
+
+.card.bg-rojo{
+    background-image: radial-gradient( circle farthest-corner at 3.9% 11.3%,  rgba(237,120,153,1) 0%, rgba(238,216,190,1) 71.6%, rgba(249,238,221,1) 99.8% );
+}
+.card.bg-verde{
+    background-image: radial-gradient( circle 833px at 8.3% 18.5%,  rgba(111,255,189,1) 13.5%, rgba(0,102,255,1) 71.1% );
+}
+.card.bg-amarillo{
+    background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(255,192,0,1) 0%, rgba(246,214,0,1) 62.5% );
+}
+.card.bg-purpura{
+    background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(91,140,245,1) 0%, rgba(240,131,252,1) 79.4% );
+}
+.card.bg-marron{
+    background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgb(83, 34, 6) 0%, rgba(252,3,3,1) 44.7%, rgb(104, 17, 99) 90% );
+}
+
+
+
+/* transition css */

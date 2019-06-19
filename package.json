@@ -1,0 +1,6 @@
+{
+  "private": true,
+  "scripts": {
+    "sync": "browser-sync start --server --files './*.*'"
+  }
+}
