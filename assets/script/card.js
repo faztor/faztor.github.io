@@ -57,23 +57,23 @@ let vars = {
 vars.cards = [
     {
         id: 1,
-        className : 'bg-purpura'
+        className : 'card--index'
     },
     {
         id: 2,
-        className : 'bg-amarillo'
+        className : 'card--list'
     },
     {
         id: 3,
-        className : 'bg-verde'
+        className : 'card--detail'
     },                
     {
         id: 4,
-        className : 'bg-rojo'
+        className : 'card--footer'
     },
     {
         id: 5,
-        className : 'bg-marron'
+        className : 'card--job'
     }
 ]
 
